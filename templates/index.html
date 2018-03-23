@@ -1,0 +1,22 @@
+
+<!DOCTYPE HTML>
+<html>
+
+  <head> </head>
+
+  <body>
+    <div id="app"> 
+      <h1> [[message]]  </h1>
+      <p> jsTime: [[jsTime]] </p>
+      <p> pyTime: [[pyTime]] </p>
+      <p> pingRspMsg: [[pingRspData]] </p>
+      <button v-on:click="sendPing">send ping </button>
+    </div>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="static/app.js"> </script>
+
+  </body>
+
+</html>

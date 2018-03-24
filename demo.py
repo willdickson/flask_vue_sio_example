@@ -26,6 +26,7 @@ def on_ping_msg(msg):
     print('sending response: ', rsp_data)
     emit('ping-rsp', rsp_data)
 
+
 def py_timer():
     dt = 0.5 
     t = 0
